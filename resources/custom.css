@@ -1,0 +1,67 @@
+@font-face {
+	font-family : 	'FontAwesome';
+	src         : 	url('/resources/font/fontawesome/font.eot?4.2');
+	src         : 	url('/resources/font/fontawesome/font.eot?4.2#iefix') format('embedded-opentype'),
+					url('/resources/font/fontawesome/font.woff?4.2') format('woff'),
+					url('/resources/font/fontawesome/font.ttf?4.2') format('truetype'),
+					url('/resources/font/fontawesome/font.svg?4.2#FontAwesome') format('svg');
+	font-weight : normal;
+	font-style  : normal;
+}
+
+
+.main-navigation .x-grid-cell-inner-treecolumn{
+	cursor: pointer;
+	height: 60px;
+	padding: 20px;
+	border-left: 4px solid transparent;
+	border-bottom: 1px solid #3892d3;
+}
+
+.main-navigation .submenu img, .main-navigation .submenu-active img{
+	opacity: 0;
+}
+.main-navigation .submenu-active{
+	background-color: #D9F2DC;
+	font-weight: normal;
+}
+
+.main-navigation .x-grid-cell-inner-treecolumn:hover{
+	border-left: 4px solid #3892d3;
+}
+.main-navigation .x-grid-item-selected .x-grid-cell-inner-treecolumn{
+	border-left: 4px solid #3892d3;
+}
+
+.main-navigation .x-tree-icon{
+	width: 25px;
+	height: 25px;
+}
+
+.main-navigation .x-grid-cell-inner-treecolumn .x-tree-elbow-img{
+	display: none;
+}
+
+.main-navigation .x-tree-node-text{
+	font-weight: bold;
+	color: #505050;
+}
+
+.main-navigation .submenu .x-tree-node-text, .main-navigation .submenu-active .x-tree-node-text{
+	padding-left: 13px;
+	font-weight: normal;
+
+}
+
+.main-navigation .tree-glyph-icon{
+  color: #505050;
+  opacity: 1;
+  font-size: 16px;
+  padding-right: 20px;
+}
+
+.main-navigation .x-grid-item-focused .x-grid-cell-inner:before{
+	border: none !important;
+}
+
+
