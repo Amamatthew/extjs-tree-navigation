@@ -1,5 +1,5 @@
 
-#ExtJS side tree navigation
+#ExtJS side navigation with Ext.tree.Panel
 
 [Demo](http://sgoran.github.io/extjs-tree-navigation/build/production/TreeNav/)
 
